@@ -31,4 +31,13 @@ public class Movie {
     public double getUserRating() {
         return userRating;
     }
+
+    public void movieInfo() {
+        System.out.println("Title: " + title);
+        System.out.println("Runtime: " + runTime);
+        System.out.println("Directed by: " + director);
+        System.out.println("Cast: " + cast);
+        System.out.println("Overview: " + overview);
+        System.out.println("User rating: " + userRating);
+    }
 }
